@@ -8,6 +8,7 @@
   border-radius: var(--radius-md);
   overflow: hidden;
   margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .location-item {
@@ -73,6 +74,7 @@
   font-weight: 700;
   margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
+  color: var(--text-primary);
 }
 
 .weather-temp {

@@ -30,6 +30,7 @@
   font-weight: 700;
   margin-bottom: 0.15rem;
   letter-spacing: -0.01em;
+  color: var(--text-primary);
 }
 
 .user-info p {
@@ -44,6 +45,7 @@
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  color: var(--text-primary);
 }
 
 .search-results {
@@ -63,15 +65,18 @@
   border-radius: var(--radius-sm);
   gap: 1rem;
   transition: all 0.15s ease;
+  box-shadow: var(--shadow-sm);
 }
 
 .search-result-item:hover {
   border-color: var(--border-hover);
+  box-shadow: var(--shadow-md);
 }
 
 .result-name {
   font-weight: 600;
   font-size: 0.95rem;
+  color: var(--text-primary);
 }
 
 .result-zip {
@@ -98,6 +103,7 @@
   width: 130px;
   outline: none;
   transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
 }
 
 .nickname-input:focus {
@@ -120,10 +126,12 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
 }
 
 .saved-location-item:hover {
   border-color: var(--border-hover);
+  box-shadow: var(--shadow-md);
 }
 
 .loc-info {
@@ -136,6 +144,7 @@
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: -0.01em;
+  color: var(--text-primary);
 }
 
 .loc-name {

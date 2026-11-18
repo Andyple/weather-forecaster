@@ -33,11 +33,12 @@
   border-radius: var(--radius-md);
   flex-shrink: 0;
   transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
 }
 
 .hourly-item:hover {
-  background: var(--bg-card-hover);
   border-color: var(--border-hover);
+  box-shadow: var(--shadow-md);
 }
 
 .hourly-time {
@@ -59,10 +60,11 @@
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: -0.02em;
+  color: var(--text-primary);
 }
 
 .hourly-precip {
   font-size: 0.7rem;
-  color: #60a5fa;
+  color: #2563eb;
   font-weight: 600;
 }
