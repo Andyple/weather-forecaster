@@ -1,0 +1,68 @@
+.hourly-timeline {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  padding-bottom: 0.75rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+  padding-top: 0.5rem;
+}
+
+.hourly-timeline::-webkit-scrollbar {
+  height: 6px;
+}
+
+.hourly-timeline::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hourly-timeline::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 3px;
+}
+
+.hourly-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0.75rem;
+  min-width: 75px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.hourly-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+}
+
+.hourly-time {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-align: center;
+  font-weight: 500;
+  max-width: 75px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hourly-icon {
+  font-size: 1.5rem;
+}
+
+.hourly-temp {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.hourly-precip {
+  font-size: 0.7rem;
+  color: #60a5fa;
+  font-weight: 600;
+}

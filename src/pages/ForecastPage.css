@@ -1,0 +1,58 @@
+.forecast-page {
+  max-width: 900px;
+}
+
+.location-selector {
+  margin-bottom: 2rem;
+}
+
+.select-prompt {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.quick-locations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.quick-loc-btn {
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quick-loc-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 2px 10px var(--accent-glow);
+  transform: translateY(-1px);
+}
+
+.forecast-location {
+  margin-bottom: 1.5rem;
+}
+
+.forecast-location h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.loading-center {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
